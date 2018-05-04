@@ -1,0 +1,2 @@
+#!/bin/sh
+DYLD_INSERT_LIBRARIES=/Applications/CornerstoneI.app/Contents/Frameworks/libHookIE.dylib /Applications/Cornerstone.app/Contents/MacOS/Cornerstone

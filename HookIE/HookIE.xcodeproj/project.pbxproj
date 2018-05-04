@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDAC90952064F97200472590 /* CTBlockDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAC90902064F97200472590 /* CTBlockDescription.h */; };
+		DDAC90962064F97200472590 /* CTBlockDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAC90912064F97200472590 /* CTBlockDescription.m */; };
+		DDAC90982064F97200472590 /* CTObjectiveCRuntimeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAC90932064F97200472590 /* CTObjectiveCRuntimeAdditions.h */; };
+		DDAC90992064F97200472590 /* CTObjectiveCRuntimeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAC90942064F97200472590 /* CTObjectiveCRuntimeAdditions.m */; };
+		DDF0CE832063C4B900192B4F /* HookIE.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF0CE822063C4B900192B4F /* HookIE.h */; };
+		DDF0CE852063C4B900192B4F /* HookIE.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF0CE842063C4B900192B4F /* HookIE.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDAC90902064F97200472590 /* CTBlockDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBlockDescription.h; sourceTree = "<group>"; };
+		DDAC90912064F97200472590 /* CTBlockDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBlockDescription.m; sourceTree = "<group>"; };
+		DDAC90932064F97200472590 /* CTObjectiveCRuntimeAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTObjectiveCRuntimeAdditions.h; sourceTree = "<group>"; };
+		DDAC90942064F97200472590 /* CTObjectiveCRuntimeAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTObjectiveCRuntimeAdditions.m; sourceTree = "<group>"; };
+		DDF0CE7F2063C4B900192B4F /* libHookIE.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libHookIE.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF0CE822063C4B900192B4F /* HookIE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookIE.h; sourceTree = "<group>"; };
+		DDF0CE842063C4B900192B4F /* HookIE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookIE.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF0CE7C2063C4B900192B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDAC908F2064F97200472590 /* CTObjectiveCRuntimeAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				DDAC90902064F97200472590 /* CTBlockDescription.h */,
+				DDAC90912064F97200472590 /* CTBlockDescription.m */,
+				DDAC90932064F97200472590 /* CTObjectiveCRuntimeAdditions.h */,
+				DDAC90942064F97200472590 /* CTObjectiveCRuntimeAdditions.m */,
+			);
+			path = CTObjectiveCRuntimeAdditions;
+			sourceTree = "<group>";
+		};
+		DDF0CE762063C4B900192B4F = {
+			isa = PBXGroup;
+			children = (
+				DDF0CE812063C4B900192B4F /* HookIE */,
+				DDF0CE802063C4B900192B4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF0CE802063C4B900192B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF0CE7F2063C4B900192B4F /* libHookIE.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF0CE812063C4B900192B4F /* HookIE */ = {
+			isa = PBXGroup;
+			children = (
+				DDAC908F2064F97200472590 /* CTObjectiveCRuntimeAdditions */,
+				DDF0CE822063C4B900192B4F /* HookIE.h */,
+				DDF0CE842063C4B900192B4F /* HookIE.m */,
+			);
+			path = HookIE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DDF0CE7D2063C4B900192B4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAC90982064F97200472590 /* CTObjectiveCRuntimeAdditions.h in Headers */,
+				DDAC90952064F97200472590 /* CTBlockDescription.h in Headers */,
+				DDF0CE832063C4B900192B4F /* HookIE.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DDF0CE7E2063C4B900192B4F /* HookIE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF0CE882063C4B900192B4F /* Build configuration list for PBXNativeTarget "HookIE" */;
+			buildPhases = (
+				DDF0CE7B2063C4B900192B4F /* Sources */,
+				DDF0CE7C2063C4B900192B4F /* Frameworks */,
+				DDF0CE7D2063C4B900192B4F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HookIE;
+			productName = HookIE;
+			productReference = DDF0CE7F2063C4B900192B4F /* libHookIE.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF0CE772063C4B900192B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = in8;
+				TargetAttributes = {
+					DDF0CE7E2063C4B900192B4F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDF0CE7A2063C4B900192B4F /* Build configuration list for PBXProject "HookIE" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDF0CE762063C4B900192B4F;
+			productRefGroup = DDF0CE802063C4B900192B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF0CE7E2063C4B900192B4F /* HookIE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF0CE7B2063C4B900192B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAC90992064F97200472590 /* CTObjectiveCRuntimeAdditions.m in Sources */,
+				DDF0CE852063C4B900192B4F /* HookIE.m in Sources */,
+				DDAC90962064F97200472590 /* CTBlockDescription.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDF0CE862063C4B900192B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDF0CE872063C4B900192B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDF0CE892063C4B900192B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL8WB84C9S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDF0CE8A2063C4B900192B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL8WB84C9S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF0CE7A2063C4B900192B4F /* Build configuration list for PBXProject "HookIE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF0CE862063C4B900192B4F /* Debug */,
+				DDF0CE872063C4B900192B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF0CE882063C4B900192B4F /* Build configuration list for PBXNativeTarget "HookIE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF0CE892063C4B900192B4F /* Debug */,
+				DDF0CE8A2063C4B900192B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDF0CE772063C4B900192B4F /* Project object */;
+}
